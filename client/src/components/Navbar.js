@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
             ) : (
               <li className="nav-item">
-                <a className="nav-link" href="/login">
+                <a className="nav-link" id='login' href="/login">
                   Login
                 </a>
               </li>
