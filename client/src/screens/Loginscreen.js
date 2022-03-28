@@ -39,11 +39,12 @@ export default function Loginscreen() {
           {error && (<Error error='Invalid Credentials'/>)}
 
           <div>
-            <input required type="text" placeholder="email" className="form-control" value={email} onChange={(e)=>{setemail(e.target.value)}} />
+            <input required type="text" placeholder="email" className="form-control" id="enteremail" value={email} onChange={(e)=>{setemail(e.target.value)}} />
             <input
               type="text"
               placeholder="password"
               className="form-control"
+              id="enterpass"
               value={password}
               required
               onChange={(e)=>{setpassword(e.target.value)}}
