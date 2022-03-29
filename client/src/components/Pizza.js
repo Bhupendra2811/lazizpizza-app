@@ -64,7 +64,7 @@ function Pizza({ pizza }) {
             <h1 >Price:{pizza.prices[0]*[varient]*quantity}</h1> 
              </div>
           <div className="m-1 w-100">
-          <button className="btn w-100" onClick={addtocart} >
+          <button className="btn w-100" name="addtocart" onClick={addtocart} >
             Add To Cart
           </button>
           </div>
