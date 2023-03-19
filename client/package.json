@@ -8,8 +8,8 @@
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
     "axios": "^0.21.1",
-    "bootstrap": "^4.6.1",
-    "jquery": "^3.6.0",
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.4",
     "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
@@ -50,7 +50,6 @@
   "proxy": "http://localhost:8000/",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "lazizpizzav1"

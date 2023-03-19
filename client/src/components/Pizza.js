@@ -18,7 +18,7 @@ function Pizza({ pizza }) {
   function addtocart() {
     dispatch(addToCart(pizza , quantity , varient))
   }
-
+console.log("wwwwwwwwwwww",)
     return (
     <div  data-aos='zoom-in' className='shadow-lg p-3 mb-4 bh-white rounded'>
     
@@ -60,9 +60,9 @@ function Pizza({ pizza }) {
           </div>
           </div>
           <div className="flex-container">
-              <div className="m-1 w-100">
-            <h1 >Price:{pizza.prices[0]*[varient]*quantity}</h1> 
-             </div>
+          <div className="m-1 w-100">
+          <h1 className="mt-1">Price:{pizza.prices[0][varient] * [quantity]} Rs/-</h1>
+        </div>
           <div className="m-1 w-100">
           <button className="btn w-100" name="addtocart" onClick={addtocart} >
             Add To Cart
